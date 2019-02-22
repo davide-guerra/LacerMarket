@@ -41,6 +41,7 @@ gem "paperclip", "~> 6.0.0"
 gem 'will_paginate', '~> 3.0.6'
 gem 'will_paginate-materialize'
 gem 'friendly_id', '~> 5.2.4'
+gem 'dotenv-rails', groups: [:development, :test]
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
