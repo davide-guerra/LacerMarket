@@ -38,8 +38,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'materialize-sass', '~> 1.0.0'
 gem 'devise'
 gem "paperclip", "~> 6.0.0"
-gem 'will_paginate', '~> 3.1.0'
+gem 'will_paginate', '~> 3.0.6'
 gem 'will_paginate-materialize'
+gem 'friendly_id', '~> 5.2.4'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
