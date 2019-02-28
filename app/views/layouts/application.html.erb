@@ -2,9 +2,12 @@
 <html>
   <head>
     <title>LacerMarket</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet">
 
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -23,15 +26,19 @@
       <% end %>
     </div>
 
+    <%= render "pages/slider" if action_name == 'home' %>
+
     <main class="container">
     <%= yield %>
     </main>
 
   <%= render "layouts/footer" %>
       
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script>
-  $(document).ready(function(){
-    $('.sidenav').sidenav();
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
   });
 </script>
   </body>

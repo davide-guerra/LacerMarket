@@ -19,6 +19,8 @@
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+
   }
 
   h1 {font-size: 3em;}
@@ -46,3 +48,5 @@
   .btn-form {width: 100%;}
 
   .pagination a li.active { color: #fff; }
+
+  .home-subtitles {margin: 15% 0 5% 0;}
