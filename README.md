@@ -1,5 +1,5 @@
-# E-Commerce in Ruby on Rails
+# Ruby on Rails e-commerce
 
-Un semplice e-commerce che consente la vendita e l'acquisto di contenuti digitali.
+A Ruby on Rails e-commerce who allows registered users to sell or buy digital items.
 
-L'e-commerce è stato realizzato come test finale per la masterclass **Diventa un programmatore full-stack** di Lacerba.io.
+This project is the final test for the *Become a full stack developer*, organised by Lacerba.io and Meritocracy.
